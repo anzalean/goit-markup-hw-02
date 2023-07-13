@@ -1,6 +1,15 @@
 /* -------------BODY------------- */
+:root {
+  --slate: #434455;
+  --navyblue: #2e2f42;
+  --cloud: #f4f4fd;
+  --iris: #4d5ae5;
+  --ocean: #404bbf;
+}
+
 body {
   color: var(--slate, #434455);
+  background-color: #fff;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 400;
@@ -8,35 +17,26 @@ body {
   letter-spacing: 0.32px;
 }
 
-/* LOGO */
-.logo {
-  font-family: "Raleway", sans-serif;
-  font-size: 18px;
-  font-weight: 800;
-  line-height: 1.16667em; /* 116.667% */
-  letter-spacing: 0.54px;
-  text-transform: uppercase;
-}
-
 /* LIST */
-ul {
+.list {
   list-style-type: none;
 }
 
 /* TITLE */
-h1 {
+.title {
   font-size: 56px;
-  line-height: 1.07143em; /* 107.143% */
+  line-height: 1.07em; /* 107.143% */
   letter-spacing: 1.12px;
 }
-h2 {
+.section-title {
   color: var(--navyblue, #2e2f42);
+  text-align: center;
   font-size: 36px;
-  line-height: 1.11111em; /* 111.111% */
+  line-height: 1.11em; /* 111.111% */
   letter-spacing: 0.72px;
   text-transform: capitalize;
 }
-h3 {
+.list-title {
   color: var(--navyblue, #2e2f42);
   font-size: 20px;
   font-weight: 500;
@@ -55,7 +55,7 @@ h3 {
 }
 
 /* LINK */
-a {
+.link {
   font-family: inherit;
   color: inherit;
   font-size: 12px;
@@ -68,6 +68,16 @@ a:focus,
 a:hover {
   color: var(--ocean, #404bbf);
 }
+/* LOGO */
+.logo {
+  color: var(--iris, #4d5ae5);
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.17em; /* 116.667% */
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
 
 /* BUTTON */
 .order-button {
@@ -78,6 +88,7 @@ a:hover {
   font-weight: 500;
   line-height: 1.5em;
   letter-spacing: 0.64px;
+  cursor: pointer;
 }
 
 .order-button:focus,
@@ -94,6 +105,7 @@ a:hover {
   font-weight: 500;
   line-height: 1.5em; /* 150% */
   letter-spacing: 0.64px;
+  cursor: pointer;
 }
 
 .filter-button:hover,
@@ -104,9 +116,6 @@ a:hover {
 
 /* -------------HEADER------------- */
 /* LOGO */
-.logo-header-web {
-  color: var(--iris, #4d5ae5);
-}
 
 .logo-header-studio {
   color: var(--navyblue, #2e2f42);
@@ -119,9 +128,6 @@ footer {
 }
 
 /* LOGO */
-.logo-footer-web {
-  color: var(--iris, #4d5ae5);
-}
 
 .logo-footer-studio {
   color: var(--cloud, #f4f4fd);
