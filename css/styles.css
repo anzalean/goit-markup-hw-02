@@ -20,13 +20,6 @@ body {
   letter-spacing: 0.32px;
 }
 
-.contacts {
-  font-style: normal;
-}
-.contacts-link {
-  color: var(--primary-text-color);
-}
-
 .text {
   color: var(--primary-text-color);
 }
@@ -145,8 +138,15 @@ a:hover {
 .logo-header-studio {
   color: var(--accent-text-color);
 }
+/* MENU */
 .menu > .list {
   font-weight: 500;
+}
+.contacts {
+  font-style: normal;
+}
+.contacts-link {
+  color: var(--primary-text-color);
 }
 
 /* -------------FOOTER------------- */
