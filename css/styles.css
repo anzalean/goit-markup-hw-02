@@ -20,8 +20,10 @@ body {
   letter-spacing: 0.32px;
 }
 
-.contacts > .list > .link {
+.contacts {
   font-style: normal;
+}
+.contacts-link {
   color: var(--primary-text-color);
 }
 
