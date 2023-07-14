@@ -30,6 +30,7 @@ body {
 /* LIST */
 .list {
   list-style-type: none;
+  list-style: none;
 }
 
 /* TITLE */
@@ -54,6 +55,13 @@ body {
   letter-spacing: 0.4px;
 }
 
+.porfolio-list-title {
+  color: var(--accent-text-color);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2em; /* 120% */
+  letter-spacing: 0.4px;
+}
 /* SECTION */
 .team-section {
   background-color: var(--accent-background-color);
