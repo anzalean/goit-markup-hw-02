@@ -22,9 +22,11 @@ body {
 
 .contacts {
   font-style: normal;
+  color: var(--primary-text-color);
 }
 
 .text {
+  color: var(--primary-text-color);
 }
 
 /* LIST */
@@ -65,6 +67,9 @@ body {
 /* SECTION */
 .team-section {
   background-color: var(--accent-background-color);
+}
+.team-list-card {
+  background-color: var(--primary-background-color);
 }
 .intro-section {
   background-color: var(--accent-text-color);
