@@ -1,17 +1,19 @@
 /* -------------BODY------------- */
 :root {
-  --slate: #434455;
-  --navyblue: #2e2f42;
-  --cloud: #f4f4fd;
-  --iris: #4d5ae5;
-  --ocean: #404bbf;
-  --white: #fff;
+  --primary-font: "Roboto", sans-serif;
+  --logo-font: "Raleway", sans-serif;
+  --primary-text-color: #434455;
+  --accent-text-color: #2e2f42;
+  --accent-background-color: #f4f4fd;
+  --button-color: #4d5ae5;
+  --active-link-color: #404bbf;
+  --primary-background-color: #fff;
 }
 
 body {
-  color: var(--slate);
-  background-color: #fff;
-  font-family: "Roboto", sans-serif;
+  color: var(--primary-text-color);
+  background-color: var(--primary-background-color);
+  font-family: var(--primary-font);
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5em; /* 150% */
@@ -37,7 +39,7 @@ body {
   letter-spacing: 1.12px;
 }
 .section-title {
-  color: var(--navyblue);
+  color: var(--accent-text-color);
   text-align: center;
   font-size: 36px;
   line-height: 1.11em; /* 111.111% */
@@ -45,7 +47,7 @@ body {
   text-transform: capitalize;
 }
 .list-title {
-  color: var(--navyblue);
+  color: var(--accent-text-color);
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2em; /* 120% */
@@ -54,18 +56,18 @@ body {
 
 /* SECTION */
 .team-section {
-  background-color: var(--cloud);
+  background-color: var(--accent-background-color);
 }
 .intro-section {
-  background-color: var(--navyblue);
-  color: var(--white);
+  background-color: var(--accent-text-color);
+  color: var(--primary-background-color);
   text-align: center;
 }
 
 /* LINK */
 .link {
   font-family: inherit;
-  color: var(--navyblue);
+  color: var(--accent-text-color);
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02tm;
@@ -74,12 +76,12 @@ body {
 
 a:focus,
 a:hover {
-  color: var(--ocean);
+  color: var(--active-link-color);
 }
 /* LOGO */
 .logo {
-  color: var(--iris);
-  font-family: "Raleway", sans-serif;
+  color: var(--button-color);
+  font-family: var(--logo-font);
   font-size: 18px;
   font-weight: 800;
   line-height: 1.17em; /* 116.667% */
@@ -89,8 +91,8 @@ a:hover {
 
 /* BUTTON */
 .order-button {
-  background: var(--iris);
-  color: var(--white);
+  background: var(--button-color);
+  color: var(--primary-background-color);
   font-family: inherit;
   font-size: 16px;
   font-weight: 500;
@@ -101,12 +103,12 @@ a:hover {
 
 .order-button:focus,
 .order-button:hover {
-  background: var(--ocean);
+  background: var(--active-link-color);
 }
 
 .filter-button {
-  background: var(--cloud);
-  color: var(--iris);
+  background: var(--accent-background-color);
+  color: var(--button-color);
   text-align: center;
   font-family: inherit;
   font-size: 16px;
@@ -118,25 +120,25 @@ a:hover {
 
 .filter-button:hover,
 .filter-button:focus {
-  background: var(--ocean);
-  color: var(--white);
+  background: var(--active-link-color);
+  color: var(--primary-background-color);
 }
 
 /* -------------HEADER------------- */
 /* LOGO */
 
 .logo-header-studio {
-  color: var(--navyblue);
+  color: var(--accent-text-color);
 }
 
 /* -------------FOOTER------------- */
 .footer {
-  background-color: var(--navyblue, #2e2f42);
-  color: var(--cloud);
+  background-color: var(--accent-text-color, #2e2f42);
+  color: var(--accent-background-color);
 }
 
 /* LOGO */
 
 .logo-footer-studio {
-  color: var(--cloud);
+  color: var(--accent-background-color);
 }
