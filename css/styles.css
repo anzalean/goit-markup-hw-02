@@ -20,7 +20,7 @@ body {
   letter-spacing: 0.32px;
 }
 
-.contacts {
+.contacts > .list > .link {
   font-style: normal;
   color: var(--primary-text-color);
 }
@@ -142,6 +142,9 @@ a:hover {
 
 .logo-header-studio {
   color: var(--accent-text-color);
+}
+.menu > .list {
+  font-weight: 500;
 }
 
 /* -------------FOOTER------------- */
